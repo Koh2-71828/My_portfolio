@@ -1,0 +1,75 @@
+body{
+    height:180%;
+}
+.fontch{
+    font: normal 50%/normal Helvetica,Verdana,Arial,"5FAE8EDF6B639ED19AD4","Microsoft JhengHei","51379ED1 Pro","LiHei Pro",sans-serif;
+}
+
+
+
+
+
+.mainbox{
+    text-decoration: none;
+    margin-top: 120px;                                
+    display:flex;             
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+}
+.mainbox h1{
+    justify-content: center;
+}
+
+
+.sent{
+    text-decoration: none;
+    margin-top: 10px;   
+    justify-content: space-around;                                          
+    display:flex;
+    font-family: 'Caveat', cursive;
+    list-style: none;
+    white-space: nowrap;
+    color:black;
+}
+.sent h2{
+    color:black;
+}
+.sent h2:hover{
+    color:grey;
+}
+
+
+/*mainbox内で二つの要素に分けてbetweenで分ける
+photo要素とsentence要素でに分割*/
+
+.sent1{
+    text-decoration: none;
+    margin-top: 20px;                                             
+    flex-wrap: nowrap;
+    display:flex;
+}
+.sent1 p,h2,h1{
+    flex-wrap: nowrap;
+    list-style: none;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-right:5%;
+}
+
+.photo{
+    overflow: hidden;
+    padding: auto;
+    display:flex;
+    width:350px;
+    height:80%;
+    padding-left:5%;
+    padding-right:5%
+}
+  
+
+.p-icon{
+    margin:auto;
+    justify-content: space-around;
+    height:30px;
+    display:flex;
+}
